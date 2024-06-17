@@ -1,0 +1,271 @@
+
+/* CSS Document */
+
+:root{
+
+
+}
+.img-fluid{
+	width: 300px;
+	padding: 10px;
+}
+header{
+	background-color:#FFFAFA;
+	padding: 10px;
+	text-align: center;
+	font-family: "Regular";
+	font-size: 18px;
+	color:#820300;
+	
+}
+.portfolio{
+	background-color:#F0EEED;
+	padding: 50px;
+	
+}
+h1{
+	color: #820300;
+	text-align: center;
+	font-family: "Regular";
+	font-size: 80px;
+	padding: 20px;
+	font-style: italic;
+	
+
+}
+h4{
+	font-family: "Regular";
+	font-size: 20px;
+	text-align: end;
+	font-style: italic;
+	
+}
+
+.sobremi{
+	background-color: #820300;
+	padding: 30px;
+	color: #F0EEED;
+}
+.subtitulo1{
+	font-family: "Regular";
+	font-size: 40px;
+	text-align: center;
+	font-style: italic;
+	color: #F0EEED;
+	padding: 20px;
+		
+	
+}
+.img-fluid2{
+	border-radius: 20px;
+	width: 400px;
+}
+p{
+	font-family: "Arial";
+	font-size: 20px;
+	margin-top: 20px;
+	padding: 20px;
+	
+}
+.subtitulo2{
+	font-family: "Regular";
+	font-size: 40px;
+	text-align: center;
+	font-style: italic;
+	color: #820300;
+	padding: 20px;
+	
+}
+.icon-circle{
+	color: #820300;
+	font-size: 50px;
+	text-align: center;
+}
+h3{
+	font-family: "Arial";
+	text-align: center;
+	color:#820300;
+	font-size: 20px;
+	padding: 20px;
+}
+.habilidades{
+	text-align: center;
+	padding: 20px;
+}
+
+	
+
+
+	
+
+@font-face{
+	font-family: "Regular";
+		src: url("../fonts/DMSerifDisplay-Regular.ttf");
+	
+}
+.carousel-item img{
+	position: absolute;
+	object-fit: cover;
+	top: 0;
+	left:0;
+	min-height: 500px;
+	
+	
+}
+.deditorial{
+	background-color: #820300;
+  
+}
+
+.img-fluid3{
+	width: 300px;
+	padding: 10px;
+	text-align: end;
+}
+.img-fluid4{
+	width: 300px;
+	padding: 10px;
+}
+.img-fluid5{
+	width: 290px;
+	padding: 10px;
+	text-align:center;
+	
+}
+.img-fluid6{
+	width: 300px;
+	padding: 10px;
+	text-align:center;
+	
+	
+}
+.seri{
+	text-align: center;
+}
+.img-fluid7{
+	
+width: 350px;
+	padding: 20px;
+}
+.img-fluid8{
+	
+width: 316px;
+	padding: 20px;
+}
+.img-fluid9{
+	
+width: 340px;
+	padding: 20px;
+	text-align: center;
+}
+.img-fluid10{
+	
+width: 400px;
+	padding: 20px;
+}
+
+.serivicios{
+	background-color: #820300;
+	text-align: center;
+	
+}
+.texto{
+	font-family: "Arial";
+	text-align: center;
+	color:#F0EEED;
+	font-size: 20px;
+	padding: 20px;
+}
+.icon{
+	color:#F0EEED ;
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+
+.btn-logo{
+background-color:#9F9B9B;
+ 
+}
+.carousel.carousel-item{
+	height: 100px;
+	padding: 10px;
+
+}
+.carousel-item img{
+	position:absolute;
+	object-fit:cover;
+	top: 0;
+	left:0;
+	min-height: 20px;
+	width: 500px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	object-position:center;
+	
+}
+.ilustracion{
+  text-align:center;
+}
+#carouselExample{
+	object-position: center;
+}
+.texto2{
+	font-family: "Arial";
+	text-align: center;
+	color:#820300;
+	font-size: 20px;
+	padding: 20px;
+}
+
+.icon-circle{
+	object-position: center;
+}
+
+.contact{
+  text-align: center;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+/*tablet*/
+
+@media (min-width:600px) and (max-width: 1200px) { 
+ 
+p{
+	font-family: "Arial";
+	font-size: 10px;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	
+}
+	.img-fluid{
+	width: 150px;
+	padding: 10px;
+}
+}
+/*celular*/
+@media (max-width: 600px) { 
+	p{
+	font-family: "Arial";
+	font-size: 10px;
+	margin-top: 20px;
+	padding: 20px;
+		text-align: center;
+		margin-left: auto;
+	
+	
+}
+ 
+}
+ 
